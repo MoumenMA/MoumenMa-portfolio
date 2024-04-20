@@ -47,8 +47,6 @@ export const PROJECTS = [
     technologies: [
       "HTML",
       "CSS",
-      "Tailwindcss",
-      "NodeJS",
       "Express",
       "Mongodb",
       "Socket.io",

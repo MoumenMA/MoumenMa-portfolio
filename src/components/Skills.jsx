@@ -24,12 +24,12 @@ const iconVariants = (duration) => ({
 function Skills() {
   return (
     <>
-      <div className="inline-flex items-center justify-center w-full ">
+      <div className="">
         <motion.p
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1.5 }}
-          className=" text-5xl underline underline-offset-8  decoration-blue-800  mb-9"
+          className="my-20 text-center text-5xl underline underline-offset-8  decoration-blue-800  "
         >
           Skills
         </motion.p>
@@ -38,7 +38,7 @@ function Skills() {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center gap-4 my-6"
+        className="flex flex-wrap items-center justify-center gap-2 "
       >
         <motion.div
           variants={iconVariants(2.5)}

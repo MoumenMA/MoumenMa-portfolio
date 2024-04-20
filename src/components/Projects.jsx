@@ -37,7 +37,7 @@ function Projects() {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="ml-7  w-full max-w-xl lg:w-3/4 space-y-6"
+              className="lg:ml-7  w-full max-w-xl lg:w-3/4 space-y-6"
             >
               <h6 className="font-semibold">{project.title}</h6>
               <p>{project.description} </p> <br />

@@ -10,23 +10,23 @@ const container = (delay) => ({
 
 function Hero() {
   return (
-    <div className=" pb-4 lg:mb-35 lg:ml-14 mb-20">
-      <div className="flex flex-wrap ">
+    <div className=" pb-4 lg:mb-35  mb-20">
+      <div className="flex flex-wrap lg:ml-14 ">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className=" text-3xl pb-6 tracking-tight lg:mt-6 lg:text-6xl"
+              className=" text-3xl pb-6 tracking-tight lg:mt-16 lg:text-6xl"
             >
-              Nice to meet you! 👋🏼 <br />
+              Nice to meet you!👋🏼 <br />
             </motion.h1>
             <motion.span
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="   text-3xl pb-2 tracking-tight  lg:mt-2  lg:text-6xl underline underline-offset-8  decoration-blue-800 tracking-text"
+              className=" text-3xl pb-2 tracking-tight lg:text-start text-center lg:mt-2  lg:text-4xl underline underline-offset-8  decoration-blue-800 tracking-text"
             >
               I'm Mohammed Amine Moumen
             </motion.span>
@@ -34,20 +34,17 @@ function Hero() {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className=" text-lg my-2 max-w-xl py-6 tracking-tighter"
+              className="lg:text-start text-center text-lg my-2 max-w-xl py-6 tracking-tighter"
             >
               A web developer, <br />
               passionate about building a modern web application that users
               love.
             </motion.p>
-
-           
-
             <br />
           </div>
         </div>
-        <div className="w-full  lg:w-1/2 lg:p-8  ">
-          <div className="flex justify-center lg:ml-24 ">
+        <div className="w-full  lg:w-1/2   ">
+          <div className="flex justify-center  ">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}

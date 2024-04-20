@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function Navbar() {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6 mx-7">
+    <nav className="mb-20 flex items-center justify-between py-6 ">
       <div className="flex flex-shrink-0 items-center ">
         <h1 className=" text-2xl ">MoumenMA</h1>
       </div>
