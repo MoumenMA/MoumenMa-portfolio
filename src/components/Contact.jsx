@@ -50,7 +50,7 @@ function Contact() {
           onSubmit={sendEmail}
           className=" mx-auto"
         >
-          <div className="relative z-0  w-96 mb-5 group">
+          <div className="relative z-0  w-80 mb-5 group">
             <input
               type="text"
               required
