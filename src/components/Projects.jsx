@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <>
-      <div className="inline-flex items-center justify-center w-full mt-24 mb-12  ">
+      <div className="inline-flex items-center justify-center w-full  mt-28 mb-12  ">
         <motion.h1
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}

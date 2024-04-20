@@ -30,13 +30,13 @@ function Contact() {
 
   return (
     <>
-      <div className="inline-flex items-center justify-center w-full mt-24 mb-12 ">
+      <div className="inline-flex items-center justify-center w-full mt-28 mb-12 ">
         <motion.p
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
-          className=" text-5xl underline underline-offset-8  decoration-blue-800 tracking-text
-         mb-9"
+          className=" text-5xl underline underline-offset-8  decoration-blue-800
+         mb-9 "
         >
           Get in Touch 📭
         </motion.p>
@@ -133,7 +133,7 @@ function Contact() {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1.5 }}
-          className="my-1 underline underline-offset-8  decoration-black tracking-text"
+          className="my-1 underline underline-offset-8  decoration-blue-800 tracking-text"
         >
           mohamedaminemoumen7@gmail.com
         </motion.p>

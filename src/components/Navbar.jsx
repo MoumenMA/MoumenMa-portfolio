@@ -8,7 +8,9 @@ function Navbar() {
   return (
     <nav className="mb-20 flex items-center justify-between py-6 ">
       <div className="flex flex-shrink-0 items-center ">
-        <h1 className=" text-2xl ">MoumenMA</h1>
+        <h1 className=" text-2xl  border-b-8 border-blue-800 -rotate-2"> MoumenMA 💻 </h1>
+        
+        
       </div>
       <div className="m-8 flex items-center justify-center gap-2 text-2xl ">
         <a
