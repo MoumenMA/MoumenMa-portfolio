@@ -30,7 +30,7 @@ function Contact() {
 
   return (
     <>
-      <div className="inline-flex items-center justify-center w-full mt-28 mb-12 ">
+      <div className="inline-flex items-center justify-center w-full mt-28 mb-12  ">
         <motion.p
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
